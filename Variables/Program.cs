@@ -58,9 +58,139 @@ namespace Variables
 
       #endregion
 
-      //Console.Read();
-      // first 
+      #region charDeğişkenler
+
+      //char symbol = 'a';
+      //Console.WriteLine(symbol);
+
+      #endregion
+
+      #region klavyeden veri girişleri String Değişkenler
+      //Console.WriteLine("**** CSharp Hava Yolları Yolcu Bilgisi ****");
+      //Console.WriteLine();
+
+      //string pessengerName, pessengerSurname, pessengerDisrict, pessengerCity, pessengerAge, pessengerIdentityNumber;
+
+      //Console.Write("Yolcu Adı:");
+      //pessengerName = Console.ReadLine();
+
+      //Console.Write("Yolcu Soyadı:");
+      //pessengerSurname = Console.ReadLine();
+
+      //Console.Write("Şehir Bilgisi:");
+      //pessengerCity = Console.ReadLine();
+
+
+      //Console.Write("İlçe Bilgisi:");
+      //pessengerDisrict = Console.ReadLine();
+
+
+
+      //Console.Write("Yaş Bilgisi:");
+      //pessengerAge = Console.ReadLine();
+
+      //Console.Write("Tc Kimlik Numaranız:");
+      //pessengerIdentityNumber = Console.ReadLine();
+
+
+      //Console.WriteLine();
+      //Console.WriteLine("--------------------------");
+      //Console.WriteLine($"Yolcu: {pessengerName} {pessengerSurname}");
+      //Console.WriteLine($"Şehir ve İlçe:{pessengerCity}/{pessengerDisrict}");
+      //Console.WriteLine($"Yaş bilgisi:{pessengerAge}");
+      //Console.WriteLine($"TC Kimlik Numarası:{pessengerIdentityNumber}");
+
+
+      #endregion
+
+      #region Klavyeden Tam Sayı Girişleri ve Dönüşümler
+
+      //int shoesPrice, computerPrice, chairPrice, tvPrice;
+      //shoesPrice = 1000;
+      //computerPrice = 20000;
+      //chairPrice = 5000;
+      //tvPrice = 12000;
+
+      //int shoesCount, computerCount, chairCount, tvCount;
+
+      //Console.Write("Lütfen aldığınız ayakkabı sayısını giriniz:");
+      //shoesCount = Convert.ToInt32(Console.ReadLine());
+      //Console.WriteLine();
+
+      //Console.Write("Lütfen aldığınız bilgisayar sayısını giriniz:");
+      //computerCount = Convert.ToInt32(Console.ReadLine());
+      //Console.WriteLine();
+
+      //Console.Write("Lütfen aldığınız sandalye sayısını giriniz:");
+      //chairCount = Convert.ToInt32(Console.ReadLine());
+      //Console.WriteLine();
+
+      //Console.Write("Lütfen aldığınız tv sayısını giriniz:");
+      //tvCount = Convert.ToInt32(Console.ReadLine());
+      //Console.WriteLine("-------------------------------");
+
+
+      //int shoesTotalPrice = shoesCount * shoesPrice;
+      //int computerTotalPrice = computerPrice * computerCount;
+      //int chairTotalPrice = chairPrice * chairCount;
+      //int tvTotalPrice = tvPrice * tvCount;
+
+      //Console.WriteLine($"Toplam ayakkabı tutarı:{shoesTotalPrice}TL");
+      //Console.WriteLine($"Toplam Bilgisayar tutarı:{computerTotalPrice}TL");
+      //Console.WriteLine($"Toplam Sandalye tutarı:{chairTotalPrice}TL");
+      //Console.WriteLine($"Toplam Tv tutarı:{tvTotalPrice}TL");
+
+      //int totalAmount = shoesTotalPrice + computerTotalPrice + chairTotalPrice + tvTotalPrice;
+      //Console.WriteLine();
+      //Console.Write($"Toplam ödemeniz gereken tutar: {totalAmount}TL");
+
+      #endregion
+
+      #region Klavye'den ondalıklı Sayı İşlemleri
+
+      //double exam1, exam2, exam3, result;
+
+      //Console.Write("Lütfen 1.Sınav Notunu Giriniz:");
+      //exam1 = double.Parse(Console.ReadLine());
+      //Console.WriteLine();
+
+      //Console.Write("Lütfen 2.Sınav Notunu Giriniz:");
+      //exam2 = double.Parse(Console.ReadLine());
+      //Console.WriteLine();
+
+      //Console.Write("Lütfen 3.Sınav Notunu Giriniz:");
+      //exam3 = double.Parse(Console.ReadLine());
+      //Console.WriteLine();
+
+      //result = (exam1 + exam2 + exam3) / 3;
+
+      //Console.Write($"Sonucunuz: {result}");
+
+      #endregion
+
+      #region Klavye'den Karakter Girişleri
+      // char gender;
+      //Console.Write("Lütfen Cinsiyetinizi Seçiniz:");
+      //gender = char.Parse(Console.ReadLine());
+      //Console.WriteLine($"Seçtiğiniz Cinsiyet: {gender}");
+      #endregion
+
+
+
+      Console.Read();
+
 
     }
+
+
+
+
+
+
+
+
+
+
+
   }
 }
