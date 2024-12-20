@@ -176,7 +176,6 @@ namespace Variables
       #endregion
 
 
-
       Console.Read();
 
 
